@@ -80,3 +80,33 @@ input[type="text"], input[type="password"] {
 		border-bottom: 1px solid $color-darkest-grey;
 	}
 }
+
+.btn {
+	border-bottom: 5px solid;
+	border-radius: 4px;
+	box-sizing: border-box; // not sure why?
+	color: $color-white;
+	display: inline-block; // because buttons (inc. submit) are inline-elements by default
+	line-height: 1.8;
+	padding: 0.6rem 2rem;
+	text-transform: uppercase;
+
+	&.btn--active {
+		background-color: $color-red;
+		border-color: $color-red-border;
+		&:hover {
+			background-color: $color-red-border;
+		}
+	}
+}
+
+input[type="submit"] {
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+
+.p-with-a {
+	color: $color-darkest-grey;
+	font-size: 1.125rem;
+	font-weight: 400;
+}

@@ -78,3 +78,27 @@ input[type="text"], input[type="password"] {
   font-weight: 400; }
   .a:hover {
     border-bottom: 1px solid #505050; }
+
+.btn {
+  border-bottom: 5px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 1.8;
+  padding: 0.6rem 2rem;
+  text-transform: uppercase; }
+  .btn.btn--active {
+    background-color: #fb133a;
+    border-color: #f0042c; }
+    .btn.btn--active:hover {
+      background-color: #f0042c; }
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 0.8rem; }
+
+.p-with-a {
+  color: #505050;
+  font-size: 1.125rem;
+  font-weight: 400; }
