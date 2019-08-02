@@ -66,6 +66,11 @@ input[type="text"], input[type="password"] {
 	margin-bottom: 0.8rem;
 }
 
+input[type="submit"] {
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+
 .fw {
 	width: 100%;
 }
@@ -100,13 +105,8 @@ input[type="text"], input[type="password"] {
 	}
 }
 
-input[type="submit"] {
-	cursor: pointer;
-	font-size: 0.8rem;
-}
-
 .p-with-a {
 	color: $color-darkest-grey;
-	font-size: 1.125rem;
+	fofnt-size: 1.125rem;
 	font-weight: 400;
 }

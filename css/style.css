@@ -67,6 +67,10 @@ input[type="text"], input[type="password"] {
   width: 25rem;
   margin-bottom: 0.8rem; }
 
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 0.8rem; }
+
 .fw {
   width: 100%; }
 
@@ -94,11 +98,7 @@ input[type="text"], input[type="password"] {
     .btn.btn--active:hover {
       background-color: #f0042c; }
 
-input[type="submit"] {
-  cursor: pointer;
-  font-size: 0.8rem; }
-
 .p-with-a {
   color: #505050;
-  font-size: 1.125rem;
+  fofnt-size: 1.125rem;
   font-weight: 400; }
