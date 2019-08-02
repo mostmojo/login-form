@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.main {
+  min-height: 17em; }
+
+.container {
+  margin: 0 auto;
+  max-width: 68.75rem;
+  padding: 0 2.25rem; }
