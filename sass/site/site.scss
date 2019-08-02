@@ -72,4 +72,11 @@ input[type="text"], input[type="password"] {
 
 .a {
 	text-decoration: none;
+	color: $color-darkest-grey;
+	border-bottom: 1px solid $color-red;
+	font-size: 1.125rem;
+	font-weight: 400;
+	&:hover {
+		border-bottom: 1px solid $color-darkest-grey;
+	}
 }

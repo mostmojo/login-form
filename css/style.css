@@ -71,4 +71,10 @@ input[type="text"], input[type="password"] {
   width: 100%; }
 
 .a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #505050;
+  border-bottom: 1px solid #fb133a;
+  font-size: 1.125rem;
+  font-weight: 400; }
+  .a:hover {
+    border-bottom: 1px solid #505050; }
