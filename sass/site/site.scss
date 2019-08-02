@@ -62,7 +62,7 @@
 }
 
 input[type="text"], input[type="password"] {
-	width: 25rem; // why do we have to reset the width here, and not on the .input class?
+	width: 25rem; // to only apply it to type=text and not any other input fields
 	margin-bottom: 0.8rem;
 }
 
@@ -89,7 +89,7 @@ input[type="submit"] {
 .btn {
 	border-bottom: 5px solid;
 	border-radius: 4px;
-	box-sizing: border-box; // not sure why?
+	box-sizing: border-box; // to contain all padding within the btn borderg
 	color: $color-white;
 	display: inline-block; // because buttons (inc. submit) are inline-elements by default
 	line-height: 1.8;
