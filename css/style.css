@@ -1,9 +1,9 @@
 *,
 *::after,
 *::before {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 body {
   box-sizing: border-box;
@@ -22,3 +22,13 @@ body {
   margin-top: 3.375rem;
   padding: 2.25rem 5.625rem;
   position: relative; }
+
+.form-section__title {
+  background: #ffffff;
+  color: #8696aa;
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-left: -1.125rem;
+  padding: 1.125rem;
+  position: absolute;
+  top: -2.8125rem; }
