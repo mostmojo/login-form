@@ -9,7 +9,7 @@
 }
 
 .form-section {
-	border: 1px solid $color-grey;
+	border: 1px solid $color-grey-light;
 	margin-top: 3.375rem;
 	padding: 2.25rem 5.625rem;
 	position: relative;
@@ -42,4 +42,34 @@
 	font-weight: 600;
 	margin-bottom: 2rem !important;
 	max-width: 100%;
+}
+
+.input {
+	border: 1px solid $color-grey-med;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: inherit;
+	display: block;
+	font-size: 1rem;
+	font-weight: 300;
+	margin-top: 0.4rem;
+	max-width: 100%;
+	padding: 1.4rem;
+	height: 1.25rem;
+	&:focus {
+		outline: none;
+	}
+}
+
+input[type="text"], input[type="password"] {
+	width: 25rem; // why do we have to reset the width here, and not on the .input class?
+	margin-bottom: 0.8rem;
+}
+
+.fw {
+	width: 100%;
+}
+
+.a {
+	text-decoration: none;
 }
