@@ -1,3 +1,4 @@
+// General layout
 .main {
 	min-height: 17em; // 272px;
 }
@@ -8,6 +9,7 @@
 	padding: 0 2.25rem;
 }
 
+// Form layout
 .form-section {
 	border: 1px solid $color-grey-light;
 	margin-top: 3.375rem;
@@ -35,6 +37,7 @@
 	justify-content: space-between;
 }
 
+// Form labels and inputs
 .label {
 	color: $color-darkest-grey;
 	cursor: pointer;
@@ -86,6 +89,7 @@ input[type="submit"] {
 	}
 }
 
+// Login button
 .btn {
 	border-bottom: 5px solid;
 	border-radius: 4px;
