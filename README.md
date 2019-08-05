@@ -1,4 +1,4 @@
-[**Log in form practice**](https://mostmojo.github.io/login-form/)
+[**Login form practice**](https://mostmojo.github.io/login-form/)
 
 • Check `package.json` to rebuild
 
